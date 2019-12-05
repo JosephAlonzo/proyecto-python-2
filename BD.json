@@ -1,0 +1,274 @@
+{
+    "Grupos": [
+        "7-D",
+        "7-B"
+    ],
+    "Clases": {
+        "7-D": [
+            "INGLES",
+            "ADMINISTRACION DEL TIEMPO",
+            "OPTATIVA ELECTRONICA",
+            "PROGRAMACION DE APLICACIONES",
+            "MATEMATICAS PARA TI",
+            "MODELADO DE PROCESOS",
+            "INGENIERIA ECONOMICA"
+        ]
+    },
+    "Salones": [
+        "C-116",
+        "C-106",
+        "LAB 6",
+        "C-114",
+        "LAB 4",
+        "LAB 7",
+        "LAB 2",
+        "C-112"
+    ],
+    "Calendario": {
+        "7-D": [
+            {
+                "clase": "INGLES",
+                "lab": "C-116",
+                "horario": "16:00-16:50",
+                "dia": "Lu",
+                "row": 0,
+                "column": 0
+            },
+            {
+                "clase": "PROGRAMACION DE APLICACIONES",
+                "lab": "LAB 4",
+                "horario": "16:00-16:50",
+                "dia": "Ma",
+                "row": 0,
+                "column": 1
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-112",
+                "horario": "16:00-16:50",
+                "dia": "Mi",
+                "row": 0,
+                "column": 2
+            },
+            {
+                "clase": "PROGRAMACION DE APLICACIONES",
+                "lab": "LAB 6",
+                "horario": "16:00-16:50",
+                "dia": "Ju",
+                "row": 0,
+                "column": 3
+            },
+            {
+                "clase": "MATEMATICAS PARA TI",
+                "lab": "LAB 7",
+                "horario": "16:00-16:50",
+                "dia": "Vi",
+                "row": 0,
+                "column": 4
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-116",
+                "horario": "16:50-17:40",
+                "dia": "Lu",
+                "row": 1,
+                "column": 0
+            },
+            {
+                "clase": "PROGRAMACION DE APLICACIONES",
+                "lab": "LAB 4",
+                "horario": "16:50-17:40",
+                "dia": "Ma",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-112",
+                "horario": "16:50-17:40",
+                "dia": "Mi",
+                "row": 1,
+                "column": 2
+            },
+            {
+                "clase": "PROGRAMACION DE APLICACIONES",
+                "lab": "LAB 6",
+                "horario": "16:50-17:40",
+                "dia": "Ju",
+                "row": 1,
+                "column": 3
+            },
+            {
+                "clase": "MATEMATICAS PARA TI",
+                "lab": "LAB 7",
+                "horario": "16:50-17:40",
+                "dia": "Vi",
+                "row": 1,
+                "column": 4
+            },
+            {
+                "clase": "ADMINISTRACION DEL TIEMPO",
+                "lab": "C-106",
+                "horario": "17:40-16:30",
+                "dia": "Lu",
+                "row": 2,
+                "column": 0
+            },
+            {
+                "clase": "MATEMATICAS PARA TI",
+                "lab": "LAB 7",
+                "horario": "17:40-16:30",
+                "dia": "Ma",
+                "row": 2,
+                "column": 1
+            },
+            {
+                "clase": "PROGRAMACION DE APLICACIONES",
+                "lab": "LAB 2",
+                "horario": "17:40-16:30",
+                "dia": "Mi",
+                "row": 2,
+                "column": 2
+            },
+            {
+                "clase": "ADMINISTRACION DEL TIEMPO",
+                "lab": "C-116",
+                "horario": "17:40-16:30",
+                "dia": "Ju",
+                "row": 2,
+                "column": 3
+            },
+            {
+                "clase": "INGENIERIA ECONOMICA",
+                "lab": "LAB 4",
+                "horario": "17:40-16:30",
+                "dia": "Vi",
+                "row": 2,
+                "column": 4
+            },
+            {
+                "clase": "ADMINISTRACION DEL TIEMPO",
+                "lab": "C-106",
+                "horario": "16:30-19:20",
+                "dia": "Lu",
+                "row": 3,
+                "column": 0
+            },
+            {
+                "clase": "MATEMATICAS PARA TI",
+                "lab": "LAB 7",
+                "horario": "16:30-19:20",
+                "dia": "Ma",
+                "row": 3,
+                "column": 1
+            },
+            {
+                "clase": "INGENIERIA ECONOMICA",
+                "lab": "LAB 2",
+                "horario": "16:30-19:20",
+                "dia": "Mi",
+                "row": 3,
+                "column": 2
+            },
+            {
+                "clase": "MATEMATICAS PARA TI",
+                "lab": "LAB 7",
+                "horario": "16:30-19:20",
+                "dia": "Ju",
+                "row": 3,
+                "column": 3
+            },
+            {
+                "clase": "INGENIERIA ECONOMICA",
+                "lab": "LAB 4",
+                "horario": "16:30-19:20",
+                "dia": "Vi",
+                "row": 3,
+                "column": 4
+            },
+            {
+                "clase": "OPTATIVA ELECTRONICA",
+                "lab": "LAB 6",
+                "horario": "19:20-20:10",
+                "dia": "Lu",
+                "row": 4,
+                "column": 0
+            },
+            {
+                "clase": "MODELADO DE PROCESOS",
+                "lab": "LAB 4",
+                "horario": "19:20-20:10",
+                "dia": "Ma",
+                "row": 4,
+                "column": 1
+            },
+            {
+                "clase": "Modulo libre",
+                "lab": "",
+                "horario": "19:20-20:10",
+                "dia": "Mi",
+                "row": 4,
+                "column": 2
+            },
+            {
+                "clase": "OPTATIVA ELECTRONICA",
+                "lab": "LAB 2",
+                "horario": "19:20-20:10",
+                "dia": "Ju",
+                "row": 4,
+                "column": 3
+            },
+            {
+                "clase": "MODELADO DE PROCESOS",
+                "lab": "LAB 2",
+                "horario": "19:20-20:10",
+                "dia": "Vi",
+                "row": 4,
+                "column": 4
+            },
+            {
+                "clase": "Modulo libre",
+                "lab": "",
+                "horario": "20:10-21:00",
+                "dia": "Lu",
+                "row": 5,
+                "column": 0
+            },
+            {
+                "clase": "Modulo libre",
+                "lab": "",
+                "horario": "20:10-21:00",
+                "dia": "Ma",
+                "row": 5,
+                "column": 1
+            },
+            {
+                "clase": "Modulo libre",
+                "lab": "",
+                "horario": "20:10-21:00",
+                "dia": "Mi",
+                "row": 5,
+                "column": 2
+            },
+            {
+                "clase": "OPTATIVA ELECTRONICA",
+                "lab": "LAB 2",
+                "horario": "20:10-21:00",
+                "dia": "Ju",
+                "row": 5,
+                "column": 3
+            },
+            {
+                "clase": "MODELADO DE PROCESOS",
+                "lab": "LAB 4",
+                "horario": "20:10-21:00",
+                "dia": "Vi",
+                "row": 5,
+                "column": 4
+            }
+        ]
+    },
+    "Dias": [
+        "2019-12-16"
+    ]
+}
