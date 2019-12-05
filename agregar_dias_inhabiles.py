@@ -134,7 +134,7 @@ class SubWindow(tk.Toplevel):
         self.tabla.column("editar",minwidth=0,width=100,anchor=tk.CENTER)
         self.tabla.column("eliminar",minwidth=0,width=100,anchor=tk.CENTER)
 
-        self.tabla.heading("salon", text="Salon/Laboratorio",anchor=tk.CENTER)
+        self.tabla.heading("salon", text="Días inhábiles",anchor=tk.CENTER)
         self.tabla.heading("editar", text="Editar",anchor=tk.CENTER)
         self.tabla.heading("eliminar", text="Eliminar",anchor=tk.CENTER)
 
