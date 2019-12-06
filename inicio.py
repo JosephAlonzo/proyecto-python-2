@@ -20,6 +20,7 @@ class Application(ttk.Frame):
         self.frame1 = tk.Frame(window)
         self.frame2 = tk.Frame(window)
 
+        #################### Creacion de las opciones del menu Inicio ##########################
         menubar = tk.Menu(window)
         window.config(menu=menubar)
         menu = tk.Menu(menubar, tearoff=0)
@@ -30,11 +31,14 @@ class Application(ttk.Frame):
         menu.add_command(label="Hacer excel", command=lambda: self.new_window6())
 
         menubar.add_cascade(label="Acciones", menu=menu)
+        #################### Creacion de las opciones del menu Fin ##########################
+
 
         window.columnconfigure(0, weight=1)
         window.rowconfigure(1, weight=2)
         window.rowconfigure(2, weight=10)
 
+        #################### Crea la tabla ##########################
         self.iniciarInterfaz()
 
         self.btn = ttk.Button(self.frame1, text="Agregar", command= lambda: self.agregar() ) 
@@ -48,12 +52,14 @@ class Application(ttk.Frame):
 
         self.grid(sticky="nsew")
 
+    #################### Evento cuando se cambia la seleccion en el combobox  ##########################
     def modified (self, event) :
         if self.combo.get() != None and self.combo.get() != 'Seleccionar un grupo' and self.combo.get() != "":
             self.grupo = self.combo.get() 
             grado = self.combo.get().split('-')
             grado = grado[0]
             fallo = False
+            #################### Activar combosbox si hay un grupo elegido  ##########################
             try:
                 for i in range(len(self.days)):
                     if i > 0:
@@ -73,6 +79,7 @@ class Application(ttk.Frame):
             except:
                 messagebox.showinfo(parent=self,title ='Sin salones/laboratorios asignadas',message="Revise la sección: \nAcciones>Salones/Laboratorios \nPara añadir nuevas materias")
             self.actualizar_tabla()
+            #################### Si no hay grupo seleccionado o el grupo no tiene materias  ##########################
             if fallo :
                 self.btn.config(
                     state='disabled'
@@ -92,7 +99,7 @@ class Application(ttk.Frame):
         obj = self.tabla.item(self.tabla.focus())
         col = self.tabla.identify_column(event.x)
         print(col)
-
+        #################### Editar ##########################
         if col == '#7':
             self.index = int(obj['text'])
             for i in range(len(self.entriesClases)):

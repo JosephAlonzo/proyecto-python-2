@@ -1,7 +1,9 @@
 {
     "Grupos": [
         "7-D",
-        "7-B"
+        "7-B",
+        "1-A",
+        "7-DASD"
     ],
     "Clases": {
         "7-D": [
@@ -12,6 +14,20 @@
             "MATEMATICAS PARA TI",
             "MODELADO DE PROCESOS",
             "INGENIERIA ECONOMICA"
+        ],
+        "1-A": [
+            "EXPRESION ORAL Y ESCRITA ",
+            "ALGEBRA LINEAL",
+            "FORMACION SOCIOCULTURAL",
+            "INGLES",
+            "METODOLOGIA DE LA PROGRAMACION",
+            "DESARROLLO DE HABILIDADES",
+            "FUNDAMENTOS DE TI",
+            "FUNDAMENTOS DE REDES",
+            "TUTORIAS "
+        ],
+        "7-B": [
+            "INGLES"
         ]
     },
     "Salones": [
@@ -22,7 +38,12 @@
         "LAB 4",
         "LAB 7",
         "LAB 2",
-        "C-112"
+        "C-112",
+        "C-111",
+        "C-101",
+        "LAB 1",
+        "LAB 5",
+        "C-103"
     ],
     "Calendario": {
         "7-D": [
@@ -266,9 +287,332 @@
                 "row": 5,
                 "column": 4
             }
+        ],
+        "1-A": [
+            {
+                "clase": "EXPRESION ORAL Y ESCRITA ",
+                "lab": "C-101",
+                "horario": "7:00-7:50",
+                "dia": "Lu",
+                "row": 0,
+                "column": 0
+            },
+            {
+                "clase": "EXPRESION ORAL Y ESCRITA ",
+                "lab": "C-101",
+                "horario": "7:00-7:50",
+                "dia": "Ma",
+                "row": 0,
+                "column": 1
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-101",
+                "horario": "7:00-7:50",
+                "dia": "Mi",
+                "row": 0,
+                "column": 2
+            },
+            {
+                "clase": "FUNDAMENTOS DE REDES",
+                "lab": "LAB 4",
+                "horario": "7:00-7:50",
+                "dia": "Ju",
+                "row": 0,
+                "column": 3
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-101",
+                "horario": "7:00-7:50",
+                "dia": "Vi",
+                "row": 0,
+                "column": 4
+            },
+            {
+                "clase": "EXPRESION ORAL Y ESCRITA ",
+                "lab": "C-101",
+                "horario": "7:50-8:40",
+                "dia": "Lu",
+                "row": 1,
+                "column": 0
+            },
+            {
+                "clase": "EXPRESION ORAL Y ESCRITA ",
+                "lab": "C-101",
+                "horario": "7:50-8:40",
+                "dia": "Ma",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-111",
+                "horario": "7:50-8:40",
+                "dia": "Mi",
+                "row": 1,
+                "column": 2
+            },
+            {
+                "clase": "EXPRESION ORAL Y ESCRITA ",
+                "lab": "C-101",
+                "horario": "7:50-8:40",
+                "dia": "Ju",
+                "row": 1,
+                "column": 3
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-101",
+                "horario": "7:50-8:40",
+                "dia": "Vi",
+                "row": 1,
+                "column": 4
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-101",
+                "horario": "9:00-9:50",
+                "dia": "Lu",
+                "row": 2,
+                "column": 0
+            },
+            {
+                "clase": "METODOLOGIA DE LA PROGRAMACION",
+                "lab": "LAB 4",
+                "horario": "9:00-9:50",
+                "dia": "Ma",
+                "row": 2,
+                "column": 1
+            },
+            {
+                "clase": "FUNDAMENTOS DE TI",
+                "lab": "LAB 6",
+                "horario": "9:00-9:50",
+                "dia": "Mi",
+                "row": 2,
+                "column": 2
+            },
+            {
+                "clase": "FUNDAMENTOS DE TI",
+                "lab": "LAB 2",
+                "horario": "9:00-9:50",
+                "dia": "Ju",
+                "row": 2,
+                "column": 3
+            },
+            {
+                "clase": "METODOLOGIA DE LA PROGRAMACION",
+                "lab": "LAB 6",
+                "horario": "9:00-9:50",
+                "dia": "Vi",
+                "row": 2,
+                "column": 4
+            },
+            {
+                "clase": "ALGEBRA LINEAL",
+                "lab": "C-101",
+                "horario": "9:50-10:40",
+                "dia": "Lu",
+                "row": 3,
+                "column": 0
+            },
+            {
+                "clase": "DESARROLLO DE HABILIDADES",
+                "lab": "C-101",
+                "horario": "9:50-10:40",
+                "dia": "Ma",
+                "row": 3,
+                "column": 1
+            },
+            {
+                "clase": "FUNDAMENTOS DE TI",
+                "lab": "LAB 6",
+                "horario": "9:50-10:40",
+                "dia": "Mi",
+                "row": 3,
+                "column": 2
+            },
+            {
+                "clase": "FUNDAMENTOS DE TI",
+                "lab": "LAB 2",
+                "horario": "9:50-10:40",
+                "dia": "Ju",
+                "row": 3,
+                "column": 3
+            },
+            {
+                "clase": "METODOLOGIA DE LA PROGRAMACION",
+                "lab": "LAB 6",
+                "horario": "9:50-10:40",
+                "dia": "Vi",
+                "row": 3,
+                "column": 4
+            },
+            {
+                "clase": "FORMACION SOCIOCULTURAL",
+                "lab": "C-101",
+                "horario": "11:00-11:50",
+                "dia": "Lu",
+                "row": 4,
+                "column": 0
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "11:00-11:50",
+                "dia": "Ma",
+                "row": 4,
+                "column": 1
+            },
+            {
+                "clase": "FUNDAMENTOS DE REDES",
+                "lab": "LAB 1",
+                "horario": "11:00-11:50",
+                "dia": "Mi",
+                "row": 4,
+                "column": 2
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "11:00-11:50",
+                "dia": "Ju",
+                "row": 4,
+                "column": 3
+            },
+            {
+                "clase": "FUNDAMENTOS DE REDES",
+                "lab": "LAB 5",
+                "horario": "11:00-11:50",
+                "dia": "Vi",
+                "row": 4,
+                "column": 4
+            },
+            {
+                "clase": "FORMACION SOCIOCULTURAL",
+                "lab": "C-101",
+                "horario": "11:50-12:40",
+                "dia": "Lu",
+                "row": 5,
+                "column": 0
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "11:50-12:40",
+                "dia": "Ma",
+                "row": 5,
+                "column": 1
+            },
+            {
+                "clase": "FUNDAMENTOS DE REDES",
+                "lab": "LAB 1",
+                "horario": "11:50-12:40",
+                "dia": "Mi",
+                "row": 5,
+                "column": 2
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "11:50-12:40",
+                "dia": "Ju",
+                "row": 5,
+                "column": 3
+            },
+            {
+                "clase": "FUNDAMENTOS DE REDES",
+                "lab": "LAB 5",
+                "horario": "11:50-12:40",
+                "dia": "Vi",
+                "row": 5,
+                "column": 4
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "12:40-13:30",
+                "dia": "Lu",
+                "row": 6,
+                "column": 0
+            },
+            {
+                "clase": "DESARROLLO DE HABILIDADES",
+                "lab": "C-101",
+                "horario": "12:40-13:30",
+                "dia": "Ma",
+                "row": 6,
+                "column": 1
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "12:40-13:30",
+                "dia": "Mi",
+                "row": 6,
+                "column": 2
+            },
+            {
+                "clase": "METODOLOGIA DE LA PROGRAMACION",
+                "lab": "LAB 2",
+                "horario": "12:40-13:30",
+                "dia": "Ju",
+                "row": 6,
+                "column": 3
+            },
+            {
+                "clase": "FUNDAMENTOS DE TI",
+                "lab": "LAB 5",
+                "horario": "12:40-13:30",
+                "dia": "Vi",
+                "row": 6,
+                "column": 4
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "13:30-14:20",
+                "dia": "Lu",
+                "row": 7,
+                "column": 0
+            },
+            {
+                "clase": "DESARROLLO DE HABILIDADES",
+                "lab": "C-101",
+                "horario": "13:30-14:20",
+                "dia": "Ma",
+                "row": 7,
+                "column": 1
+            },
+            {
+                "clase": "INGLES",
+                "lab": "C-101",
+                "horario": "13:30-14:20",
+                "dia": "Mi",
+                "row": 7,
+                "column": 2
+            },
+            {
+                "clase": "METODOLOGIA DE LA PROGRAMACION",
+                "lab": "LAB 2",
+                "horario": "13:30-14:20",
+                "dia": "Ju",
+                "row": 7,
+                "column": 3
+            },
+            {
+                "clase": "TUTORIAS ",
+                "lab": "C-103",
+                "horario": "13:30-14:20",
+                "dia": "Vi",
+                "row": 7,
+                "column": 4
+            }
         ]
     },
     "Dias": [
-        "2019-12-16"
+        "2019-12-16",
+        "2019-10-01"
     ]
 }

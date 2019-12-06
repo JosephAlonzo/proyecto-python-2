@@ -362,7 +362,8 @@ class SubWindow(tk.Toplevel):
                     count += 1
                 else:
                     count = 1
-
+            if len(self.lista) > 0:
+                ultimaMateria = self.lista[0][0]
             for col in range(len(self.calendario[0])):
                 if len(self.lista) < 1:
                     break
